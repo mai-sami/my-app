@@ -1,0 +1,98 @@
+.body{
+    width: 100%;
+    height: 99vh;
+    background-color: #4F2E85;
+    align-items: center;
+    position: relative;
+  }
+  .body__one{
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 26%;
+    color: white;
+    display: flex;
+      
+    left: 12%;
+     /* background-color: aliceblue; */
+  }
+  .body__ones{
+      display: block;
+  }
+   h1{
+    font-size: 44px;
+    line-height: 1.7;
+
+    font-weight: 700;
+  }
+  .App__store{
+      display: flex;
+      align-items: center;
+      margin-top:22px;
+  }
+  .box__Store{
+      display: flex;
+      background-color: black;
+       margin: 5px;padding: 2px;
+      height: 40px;
+       border-radius: 8px;
+       border: 1px solid rgb(194, 194, 194);
+
+  }
+  .icon__text{
+      margin-top: 2px;
+  }
+   
+  .available{
+      font-size: 8px;
+
+  }
+  .text__app{
+      font-size: 14px;
+  }
+  .icons{
+      padding: 5px;
+      width: 23px;
+      height: 33px;
+  }
+  .body__secand{
+      /* background-color: violet; */
+      float: right;
+      margin-top: -53px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+position: absolute;
+      width:50%;
+right: 0;
+
+
+  }
+  .circel__body{
+    width: 77px;
+    height: 77px;
+    top: -30%;
+    left: 15%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3EC5EF;
+  }
+  .Mask{
+    z-index: 100;
+    position: absolute;
+    top: -50%;
+    height: 559px;
+
+}
+.desgin{
+  /* padding-top: 33px; */
+  position: absolute;
+}
+.desgin__div{
+    float: right;
+    position: relative;
+    padding:120px 225px 0 0;
+    width: 90px;
+    height: 30px;
+}
