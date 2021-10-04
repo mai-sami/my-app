@@ -4,6 +4,110 @@
    padding: 0;
    margin: 0;
  }
+
+
+ @font-face {
+  font-family:'Montserrat-Black' ;
+  src: url("./Fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-BlackItalic' ;
+  src: url("./Fonts/Montserrat-BlackItalic.ttf");
+}
+@font-face {
+  font-family:'Montserrat-Bold' ;
+  src: url("./Fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family:'Montserrat-BoldItalic' ;
+  src: url("./Fonts/Montserrat-BoldItalic.ttf");
+}
+@font-face {
+  font-family:'Montserrat-ExtraBold' ;
+  src: url("./Fonts/Montserrat-ExtraBold.ttf");
+}
+
+
+@font-face {
+  font-family:'Montserrat-ExtraBoldItalic' ;
+  src: url("./Fonts/Montserrat-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-ExtraLight' ;
+  src: url("./Fonts/Montserrat-ExtraLight.ttf");
+}
+@font-face {
+  font-family:'Montserrat-ExtraLightItalic' ;
+  src: url("./Fonts/Montserrat-ExtraLightItalic.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-Italic' ;
+  src: url("./Fonts/Montserrat-Italic.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-Light' ;
+  src: url("./Fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-LightItalic' ;
+  src: url("./Fonts/Montserrat-LightItalic.ttf");
+}
+@font-face {
+  font-family:'Montserrat-Medium' ;
+  src: url("./Fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family:'Montserrat-MediumItalic' ;
+  src: url("./Fonts/Montserrat-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-Regular' ;
+  src: url("./Fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-SemiBold' ;
+  src: url("./Fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family:'Montserrat-SemiBoldItalic' ;
+  src: url("./Fonts/Montserrat-SemiBoldItalic.ttf");
+}
+
+
+@font-face {
+  font-family:'Montserrat-Thin' ;
+  src: url("./Fonts/Montserrat-Thin.ttf");
+}
+@font-face {
+  font-family:'Montserrat-ThinItalic' ;
+  src: url("./Fonts/Montserrat-ThinItalic.ttf");
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .header{
   background-color:#FFFFFF;
   width: 100%;
@@ -12,7 +116,7 @@ position: sticky;
  }
  .header__containrt{
    background-color: #FFFFFF;
-   width: 80%;
+   width: 70%;
    display: flex;
    height: 83px;
    align-items: center;
@@ -83,3 +187,75 @@ ul li a.active{
   }
 
    
+  .footer{
+    width: 100%;
+    background-color: #4F2E85;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .footer__contaner{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+     padding-top: 55px;
+   }
+  .part{
+    display: block;
+    width: 33%;
+  }.ul{
+    display: block;
+  }
+  .grid__all{
+    display: flex;
+    justify-content: space-between;
+     width: 60%;
+  }
+  .a__a{
+    color: white;
+    font-size: 20px;
+    padding:8px 0px 8px 0;
+    font-weight: bold;
+
+  }
+  .ct_footer{
+    margin-bottom: 12px;
+  }
+  .p__footer{
+    padding-top:12px ;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 15px;
+    color: #DCDCDC;
+  }
+  
+  .ct_footer{
+    color: white;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    padding: 30px 0px 22px 0px;
+    font-size: 25px;
+   }
+    .hr__h{
+      width: 70%;
+      margin:5px auto;
+      height: 1;
+       color: #ffffff96;
+    }
+    .bottom{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 12px 0;
+      font-size: 18px;
+      color: white;
+    }
+    .div__a{
+      display: flex;
+       justify-content: space-between;
+      width: 280px;
+      align-items: center;
+    }
+     
