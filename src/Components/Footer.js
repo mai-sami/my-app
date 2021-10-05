@@ -1,6 +1,9 @@
 import React from 'react'
-import expertoss from '../images/expertoss.png'
+import Groupsocail from '../images/Groupsocail.png'
 
+import expertoss from '../images/expertoss.png'
+import AppleIcon from '@mui/icons-material/Apple';
+import googlePlay from '../images/googlePlay.png'
 function Footer() {
     return (
         <div className="footer">
@@ -12,16 +15,15 @@ function Footer() {
 <br />
 
 <div className="p__footer">
-<p>kiodfshvdfivnhgpdfv
-    fvglokdtpgbjmtrfdgv
-    regopjer9gopfdbgh
-    etg,opverih8g9oinrkmes
+<p>Technical platform that helps you 
+build your technical project
+
 </p>
 <br />
-<p>kiodfshvdfivnhgpdfv
-    fvglokdtpgbjmtrfdgv
-    regopjer9gopfdbgh
-    etg,opverih8g9oinrkmes
+<p> 
+through a specialized system for 
+emerging applications, providing
+the necessary support ..
 </p>
 </div>
 
@@ -74,7 +76,33 @@ function Footer() {
 
     <div className="grid">
 <h2 class="ct_footer">  Contact Us</h2>
+<div className="socail">
+ 
+  <img src={Groupsocail} alt="" />
+ 
+<div className="App__stores">
 
+
+<div className="boxx__Store">
+
+<img src={googlePlay}   className="icons" />
+<div className="icon__text">
+    <p className="available"> GIT IT ON    </p>
+    <p className="text__app">  Google Play</p>
+</div>
+
+</div>
+                        <div className="boxx__Store">
+                            <AppleIcon style={{ fontSize: 30}} className="icon" />
+                            <div className="icon__text">
+                                <div className="available">Available on the</div>
+                                <div className="text__app">App Store</div>
+                             </div>
+             
+                        </div>
+                        </div>
+                       
+</div>
 </div>
 
 

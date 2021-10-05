@@ -197,21 +197,22 @@ ul li a.active{
   }
   .footer__contaner{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 50vh;
      padding-top: 55px;
    }
   .part{
     display: block;
-    width: 33%;
-  }.ul{
+    padding-top: 25px;
+    width: 30%;
+   }.ul{
     display: block;
   }
   .grid__all{
     display: flex;
     justify-content: space-between;
-     width: 60%;
+     width: 77%;
   }
   .a__a{
     color: white;
@@ -229,8 +230,14 @@ ul li a.active{
     font-weight: bold;
     font-size: 15px;
     color: #DCDCDC;
+    width: 66%;
   }
-  
+  .App__stores{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    
+  }
   .ct_footer{
     color: white;
     font-family: 'Comfortaa';
@@ -239,9 +246,10 @@ ul li a.active{
     font-size: 25px;
    }
     .hr__h{
-      width: 70%;
+      width: 66%;
       margin:5px auto;
       height: 1;
+      border-top: 2px  #ffffff96;
        color: #ffffff96;
     }
     .bottom{
@@ -255,7 +263,42 @@ ul li a.active{
     .div__a{
       display: flex;
        justify-content: space-between;
-      width: 280px;
+      width: 220px;
       align-items: center;
     }
-     
+    .boxx__Store{
+      display: flex;
+        margin: 5px;
+       padding: 2px;
+      height: 30px;
+      width: 105px;
+       border-radius: 7px;
+       border: 1px solid rgb(194, 194, 194);
+    
+    }
+    .dilog{
+      width: 250px;
+      height: 188px;
+       display: flex;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .massg{
+      position: absolute;
+      width: 112px;
+z-index: 100;
+      top: -10%;
+     }
+     .massg img{
+       width: 120px;
+     }
+    .di__log{
+      width: 50%;
+      color: #4F2E85;
+      font-size: 22px;
+    }
+   
