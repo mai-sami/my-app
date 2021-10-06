@@ -212,8 +212,7 @@ ul li a.active{
   .grid__all{
     display: flex;
     justify-content: space-between;
-     width: 77%;
-  }
+   }
   .a__a{
     color: white;
     font-size: 20px;
@@ -277,28 +276,53 @@ ul li a.active{
     
     }
     .dilog{
-      width: 250px;
-      height: 188px;
+      width: 265px;
+      height: 266px;
        display: flex;
-      position: relative;
-      flex-direction: column;
+       position: relative;
+       flex-direction: column;
+       border-radius: 5px;
+       background-color: #FFFFFF;
       justify-content: center;
       align-items: center;
       text-align: center;
     }
+ 
+     .massg{
+      height: 150px;
+      width: 140px;
+  overflow-y: auto;
 
-    .massg{
-      position: absolute;
-      width: 112px;
-z-index: 100;
-      top: -10%;
-     }
-     .massg img{
-       width: 120px;
-     }
+        position: absolute !important;  
+               top: -28%;
+      }
     .di__log{
-      width: 50%;
-      color: #4F2E85;
-      font-size: 22px;
+      width: 72%;
+      color: #6D4BD8;
+      font-size: 18px;
+      padding: 12px 0px 12px 0px;
+      font-family:'Montserrat-SemiBold' ;
+
     }
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+
+     /* background-color: rgba(202, 202, 202, 0) !important; */
+     -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 5px;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+    margin: 32px;
+     overflow-y: auto;
    
+    display: flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 490px;
+    /* height: 500px; */
+    max-height: calc(100% - 64px);
+    max-width: 640px;
+}

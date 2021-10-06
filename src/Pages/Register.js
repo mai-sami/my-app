@@ -1,8 +1,10 @@
 import React from 'react'
-import contact from '../images/contact.png'
-import '../css/pages.css';
-
+ import '../css/pages.css';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import massg from '../images/massg.png'
 import register from '../images/register.png'
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
@@ -43,7 +45,15 @@ function TabPanel(props) {
   }
 function Register() {
     const [value, setValue] = React.useState(0);
+    const [open, setOpen] = React.useState(false);
 
+    const handleClickOpen = () => {
+      setOpen(true);
+    };
+  
+    const handleClose = () => {
+      setOpen(false);
+    };
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };
@@ -99,7 +109,7 @@ function Register() {
 
         </div>
     </div>
-    <input className="Account" value="Create New Account" />
+    <input className="Account" onClick={handleClickOpen} value="Create New Account" />
           </TabPanel>
       <TabPanel value={value} index={2}>
     <div className="butt_pn">
@@ -160,7 +170,42 @@ to take advantage of our services
           
  }
          </div>
+         <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+       
+  
+         <div className="dilog">
+ 
+        <img className="massg" src={massg} alt="" />
+       
+        <div className="di__log">
+          <p>
+          Please check on
+your email
+          </p>
+          </div>
+
+          <div className="header__search">
+ 
+ <input className="chek" value="let's go" />
+ <ArrowRightAltIcon  style={{ fontSize: 30 }} className="arrow" />
+ </div>
+           </div>
+        
+   
+        <DialogActions>
+
+        <div className="Close__all">
+ 
+                         <input className="Close" onClick={handleClose} value="Close" />
+                         </div>
          
+         </DialogActions>
+      </Dialog>
     </div>
     )
 }
