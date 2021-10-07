@@ -53,6 +53,8 @@ function App() {
           <Route path="/product">
             <Headers />
             <AllBody />
+                   <Footer />
+
           </Route>
 
           <Route path="/footer">

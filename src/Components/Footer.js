@@ -23,8 +23,7 @@ build your technical project
 <p> 
 through a specialized system for 
 emerging applications, providing
-the necessary support ..
-</p>
+ </p>
 </div>
 
            </div>
@@ -109,6 +108,9 @@ the necessary support ..
 </div>
  
 </div>
+<br />
+<br />
+
 <hr className="hr__h" />
 <div class="bottom">
  <p>All Copyright By Experto © 2020   </p>

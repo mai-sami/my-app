@@ -6,7 +6,7 @@ export const HomeWrapper = styled.div`
     height: 35px;
     width: 35px;
     border:1px soild white;
-    border-radius: 100px;
+        border-radius: 100px;
   }
   .slick-arrow:hover,
   .slick-arrow:active,
