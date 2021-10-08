@@ -24,21 +24,23 @@ display: flex;
 }
 .contant__right{
      width: 45%;
-
-     margin:50px 0px 5px 0px;
-    background-color: #6D4BD8;
-    align-items: center;
-    display: flex;
-    border-radius: 8px;
-    float: right;
-}
+     margin:10px 0px 5px 0px;
+     align-items: right;
+     justify-content: right;
+    display: block;
+     float: right;
+  }
 .div__mass{
     max-width: 90%;
 color: #F8F8F8;
 height: 44px;
+background-color: #6D4BD8;
+border-radius: 8px;
+
 align-items: center;
 padding-left: 8px;
 display: flex;
+flex-direction: column;
 justify-content: center;
 text-align: left;
 }
@@ -156,3 +158,6 @@ font-family:'Montserrat-Regular' ;
 padding: 5px;
 
  }
+ .ll{
+display: flex;
+flex-direction: column; }

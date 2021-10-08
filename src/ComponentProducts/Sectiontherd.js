@@ -13,9 +13,7 @@ import dec from '../images/dec.png'
 import Slider from "react-slick";
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import lastss from '../images/lastss.png'
+ import lastss from '../images/lastss.png'
 import mid from '../images/mid.png'
 import image from '../images/image.png'
 import maps from '../images/maps.png'

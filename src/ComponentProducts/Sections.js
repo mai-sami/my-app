@@ -16,13 +16,15 @@ import { Link } from "react-router-dom";
 
 var parts = [
 
-  { id: 2, type: " ", image: ex, massge: "How we can help you? " },
-  { id: 3, type: "Other", image: ex, massge: "Ok iondhcic hd98vihiofv ? " },
-  { id: 4, type: "Other", image: ex, massge: "How we? " },
-  { id: 4, type: " ", image: ex, massge: "How we? " },
+  { id: 2,status:true,   image: ex, massge: "How we can help you? " },
+  { id: 3, status:false,  image: ex, massge: "Ok iondhcic hd98vihiofv ? " },
+  { id: 4, status:true,  image: ex, massge: "How we? sdcdxc" },
+  { id: 4, status:true,  image: ex, massge: "How we? sdcdxc" },
+
+  { id: 5, status:false,  image: ex, massge: "How we? " },
 
   {
-    id: 5, type: "", image: ex,
+    id:6, status:true,  image: ex,
     massge: "What can you do? "
   },
 
@@ -32,11 +34,11 @@ var parts = [
 ]
 function Sections() {
   const [open, setOpen] = React.useState(false);
-
+ 
   const handleClickOpen = () => {
     setOpen(true);
   };
-
+ 
   const handleClose = () => {
     setOpen(false);
   };
@@ -73,25 +75,24 @@ function Sections() {
           <div className="contant">
             <div className="chats">
               <div className="chatss">
+              <div className="ll">
 
                 {parts.map((part) => (
+ <div>
+   
+  {part.status ?
 
-                  <div>
-                    <div
-
-                      className={`chatss ${part.type ? part.type : ""}`}>
-
-                    </div>
-                    <div className="contant__right">
+                     <div className="contant__right">
 
                       <div className="div__mass">
 
                         <p>{part.massge}</p>
-                        {/* <p>{part.type ? part.type : "me"}</p> */}
-
+ 
                       </div>
-                    </div>
+                   
 
+                    </div>
+                    :
                     <div className="contant__rleft">
                       <div className="ci__bb">
                         <img className="chat__msg" src={part.image} />
@@ -104,9 +105,14 @@ function Sections() {
 
 
                     </div>
+                                      
 
-                  </div>
+            
+                }
+                 </div>
+                
                 ))}
+                   </div>
                 <div className="footer__chats">
                   <div className="ci__bb">
                     <img className="chat__msg" src={ex} />

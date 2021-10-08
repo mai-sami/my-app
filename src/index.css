@@ -29,7 +29,7 @@ code {
   position:absolute;
   top:70px;
   right: 15%;
-   background:rgb(219, 191, 191);
+   background:white;
   border:solid 1px rgba(100, 100, 100, .20);
   -webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .20);
   z-index: 1300;
@@ -59,13 +59,14 @@ code {
    width: 90%;
   border-radius: 5px;
   padding: 12px;
-  margin:15px auto;
+  margin:17px auto;
 text-align: left;
-    height: 130px;
+    height: 100px;
 }
 .colo h3{
+padding-bottom: 8px;
    color: white;
-   font-size: 14px;
+   font-size: 12px;
 
 }
 .colo h2{
@@ -103,4 +104,16 @@ text-align: left;
 }
 .a{
   display: flex;
+}
+
+.change{
+  color: #6D4BD8;
+  font-size: 15px;
+  padding: 5px 0px 5px 0;
+
+}
+.s__mal{
+  font-size: 11px;
+  color: #969696;
+  
 }

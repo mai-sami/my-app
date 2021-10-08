@@ -1,9 +1,7 @@
 import React from 'react'
 import social from '../images/social.png'
-import body from '../css/body.css'
-
-import tabs from '../images/tabs.png'
-import phone from '../images/phone.png'
+ 
+ import phone from '../images/phone.png'
 import Maskk from '../images/Maskk.png'
 import Group from '../images/Group.png'
 import MaskG from '../images/MaskG.png'
