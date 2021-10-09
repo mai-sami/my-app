@@ -454,6 +454,85 @@ height: 73vh !important;
 .body___home__one img{
   width: 250px !important;
 }
+.x {
+  width: 0px !important;
+}
+.product_flex{
+  width: 60% !important;
+}
+.bodyprduct__one h1{
+  font-size: 15px !important;
+}
+.p__products {
+width: 130% !important;
+}
+.section__containrt{
+  width: 90% !important;
+}
+
+.grid__all {
+   grid-template-columns: repeat(1, 1fr) !important;
+
+}
+
+ 
+.same {
+font-size: 28px !important;
+
+}
+.form__rights {
+   width: 100% !important;
+
+}
+.form {
+width: 88% !important;
+}
+.fom__lefts{
+  display: none !important;
+}
+.first__input{
+  width: 98% !important;
+}
+.Account{
+  font-size: 14px !important;
+  width: 90% !important;
+
+}
+.fom__left{
+  display: none !important;
+}
+.form__rights__password{
+  width: 90% !important;
+}
+.about__p {
+  width: 85% !important;
+}
+.Terms__p {
+width: 100% !important;
+}
+.TermsCondition {
+  width: 100% !important;
+
+}
+.all__inputsss{
+  margin-top: 52px !important;
+}
+
+.Send__send{
+  width: 40% !important;
+}
+.contact{
+  height: 155vh !important;
+}
+
+ 
+.gridfooter{
+
+  display: none !important;
+}
+.gridfooters{
+  display: none !important;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -463,10 +542,31 @@ height: 73vh !important;
     width: 100%;
 
   }
+  .body__secand {
+
+    margin-top: 33px  !important;
+  }
+  .desgin__div{
+    width: 390px !important;
+  }
+  .gridfooter{
+
+    display: none !important;
+  }
+  .all__inputsss{
+    margin-top: 52px !important;
+  }
   body{
     width: 100%;
     overflow-x: hidden !important;
   }
+  .Terms__p {
+    width: 100% !important;
+    }
+    .TermsCondition {
+      width: 100% !important;
+    
+    }
   .header__containrt{
     width: 99%;
     margin: auto;
@@ -512,6 +612,50 @@ width: 100% !important;
     .Mask{
       margin: 0px !important;
     }
+    .bodyprduct__one h1{
+      font-size: 22px !important;
+    }
+    .p__products {
+    width: 130% !important;
+    }
+    .section__containrt {
+width: 82%  !important;
+    }
+    .grid__all {
+       grid-template-columns: repeat(2, 1fr) !important;
+      grid-auto-rows: auto;
+      grid-gap: 1rem;
+      width: 95% !important;
+}
+.body__one__dec {
+   margin-top: 53px !important;
+}
+
+.fan {
+  width: 99% !important;
+  margin-top: -64px !important;
+}
+
+
+
+.end__all__sections {
+  width: 100% !important; 
+}
+
+.form {
+  width: 88% !important;
+  }
+   
+  .first__input{
+    width: 98% !important;
+  }
+  .Account{
+    font-size: 14px !important;
+    width: 90% !important;
+  
+  }
+
+
 }
 
  @media (min-width: 800px) and (max-width: 992px) {
@@ -520,6 +664,17 @@ width: 100% !important;
     width: 100%;
 
   }
+  .gridfooter{
+
+    display: none !important;
+  }
+  .Terms__p {
+    width: 90% !important;
+    }
+    .TermsCondition {
+      width: 90% !important;
+    
+    }
   body{
     width: 100%;
     overflow-x: hidden !important;
@@ -548,6 +703,38 @@ right: 7% !important;
  .face {
 margin-right: -40% !important; 
 }
+.bodyprduct__one h1{
+  font-size: 30px !important;
+}
+.p__products {
+width: 130% !important;
+}
+.body__one__dec {
+padding-top: 90px !important;
+}
+/* .body__secand {
+margin-top: -55px !important;
+} */
+.grid__all {
+   grid-template-columns: repeat(2, 1fr) !important;
+
+}
+
+.form {
+  width: 88% !important;
+  }
+   
+  .first__input{
+    width: 98% !important;
+  }
+  .Account{
+    font-size: 14px !important;
+    width: 90% !important;
+  
+  }
+
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

@@ -76,7 +76,7 @@ height: 100vh;
     }
 .bodyprduct__one h1{
  
-        font-size: 48px;
+        font-size: 45px;
         line-height: 1.4;
     color: white;
         font-weight: 700;
@@ -317,7 +317,7 @@ font-family: 'Dubai';
     }
     .j{
       width: 100%;
-      height: 490vh;
+      height: 650vh;
     }
     .grid__all {
  
@@ -631,7 +631,22 @@ height:90%;
 
 
 
-
+         .gridfooter {
+          text-align: left;
+       height: 66vh;
+         border-radius: 4px;
+          width: 90%;
+           
+         }
+          
+         .gridfooters {
+          text-align: left;
+       height: 66vh;
+         border-radius: 4px;
+          width: 90%;
+           
+         }
+          
 
 
 
@@ -815,4 +830,6 @@ padding: 12px 0px 5px 0px;
     .maps{
       padding: 18px 0px 12px 0;
     }
-    
+    .body___home{
+       height: 450vh;
+    }

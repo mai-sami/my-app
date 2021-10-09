@@ -51,9 +51,9 @@ function Sections() {
 
         <div className="product_flex">
           <img className="last" src={last} />
-          <img src={picktlogo} />
+          <img className="x" src={picktlogo} />
           <img className="G" src={G} />
-          <img src={first} />
+          <img className="x" src={first} />
 
         </div>
 

@@ -33,16 +33,16 @@ emerging applications, providing
     <h2 class="ct_footer ">  HOME</h2>
        <ul className="ul">
       <li>
-        <a className="a__a" href="">About Us</a>
+        <a className="a__a" href="/about">About Us</a>
       </li>
       <li>
         <a className="a__a" href="">Investors</a>
       </li>
       <li>
-        <a className="a__a" href="">Terms of Service  </a>
+        <a className="a__a" href="/terms">Terms of Service  </a>
       </li>
       <li>
-        <a className="a__a" href="">Privacy Policy</a>
+        <a className="a__a" href="/privacy">Privacy Policy</a>
       </li>
       <div className="div__a">
       <li>
@@ -55,13 +55,13 @@ emerging applications, providing
       </div>
     </ul>
     </div>
-    <div className="grid">
+    <div className="gridfooters">
 
 
     <h2 class="ct_footer">  Services</h2>
     <ul className="ul">
       <li>
-        <a className="a__a" href="">Business</a>
+        <a className="a__a" href="/product">Business</a>
       </li>
       <li>
         <a className="a__a" href="">Personal</a>
@@ -73,7 +73,7 @@ emerging applications, providing
     </ul>
     </div>
 
-    <div className="grid">
+    <div className="gridfooter">
 <h2 class="ct_footer">  Contact Us</h2>
 <div className="socail">
  

@@ -12,7 +12,7 @@ import Bodys from'./Bodys';
  
 function BodyHome() {
     return (
-        <div classsName="body___home">
+        <div className="body___home">
             <div className="body___home__body">
                 <div className="all"> 
 <div className="body___home__one">

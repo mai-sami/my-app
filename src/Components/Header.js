@@ -18,7 +18,7 @@ if(muneItem[i].href===current){
         <div className="header">
                     <div className="header__containrt">
                     <div className="im__ge">
-                 <img  src={ expertos}/>
+                 <img  src={ expertos} alt=""/>
               </div>
 
                     <nav>

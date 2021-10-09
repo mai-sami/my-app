@@ -4,6 +4,7 @@
       margin: auto;
       text-align: center;
       align-items: center;
+      height: 75vh;
  
  }
 
@@ -14,7 +15,7 @@
 
  .form__right{
      float: right;
-     width: 45%;
+     width: 46%;
  }
  .form__right img{
      height: 100px;
@@ -37,8 +38,8 @@
      color: #707070;
      font-size: 18px;
  }
- .all__inputs{
-     padding-top: 6%;
+ .all__inputss{
+     padding-top: -6%;
  }
  .input{
      width:86%;
@@ -53,7 +54,7 @@
  }
 
  .inputs{
-    width:86%;
+    width:100%;
     border: 1px solid #70707049;
     text-align: left;
     padding:4px 0px 0px 12px;
@@ -62,12 +63,61 @@
     font-size: 13px;
     font-weight: bold;
   color: #7070707a;
-    margin: 30px 0px 0px 0;
- }
- .input:hover{
+  }
+ .inputt:hover{
     border: 1px solid #6D4BD8;
 color: #6D4BD8 ;
  }
+
+
+
+
+
+ .Send__send{
+    text-transform: uppercase;
+background-color: #6D4BD8;
+color: white;
+font-size: 15px;
+font-weight: bold;
+width: 10%;
+height: 48px;
+border: none;
+margin-top: -60px;
+border-radius: 5px;
+outline: none;
+ text-align: center;
+font-family:'Montserrat-SemiBold' ;
+
+ }
+
+
+
+
+
+ .inputt{
+    width:100%;
+    border: 1px solid #70707049;
+    text-align: left;
+    padding-left: 12px;
+    outline: none;
+    height: 42px;
+    color: #707070ce;
+
+    margin: 25px 0px 0px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
  .Send{
     text-transform: uppercase;
 background-color: #6D4BD8;
@@ -114,7 +164,7 @@ margin-top: -38px; }
  }
  .fom__lefts{
     float: left;
-    width: 44%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -419,3 +469,20 @@ li{
      color: #707070;
      font-size: 13px;
 }
+
+.form__P__contat{
+    color: #707070;
+    font-size: 15px;
+}
+.all__inputsss{
+
+    margin-top: 28px;
+}
+
+.fom__lefts__contact{
+    float: left;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ }

@@ -23,49 +23,61 @@ function App() {
           <Route path="/about">
             <Headers />
             <AboutUs />
+            <Footer />
+
           </Route>
 
           <Route path="/privacy">
             <Headers />
             <Privacy />
+
+            <Footer />
+
+ 
           </Route>
 
           <Route path="/terms">
             <Headers />
             <TermsCondition />
+            <Footer />
+
           </Route>
 
           <Route path="/login">
             <Headers />
             <Register />
+            <Footer />
+
+
           </Route>
 
           <Route path="/contact_us">
             <Headers />
             <Contact />
+            <Footer />
+
           </Route>
 
           <Route exact path="/forget">
             <Headers />
             <ForgetPassword />
+            contact_us
           </Route>
 
           <Route path="/product">
             <Headers />
             <AllBody />
-                   {/* <Footer /> */}
+                   <Footer />
 
           </Route>
 
-          <Route path="/footer">
-            <Footer />
-          </Route>
+         
           <Route path="/">
             <Header />
             <Body />
-            <BodyHome />
-            {/* <Footer /> */}
-          </Route>
+            <BodyHome />  
+            <Footer />
+           </Route>
 
 
         </Switch>
