@@ -52,8 +52,8 @@ function App() {
 
           <Route path="/product">
             <Headers />
-            {/* <AllBody />
-                   <Footer /> */}
+            <AllBody />
+                   {/* <Footer /> */}
 
           </Route>
 
@@ -62,8 +62,8 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            {/* <Body />
-            <BodyHome /> */}
+            <Body />
+            <BodyHome />
             {/* <Footer /> */}
           </Route>
 

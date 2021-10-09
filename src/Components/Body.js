@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import body from '../css/body.css'
 import AppleIcon from '@mui/icons-material/Apple';
 import googlePlay from '../images/googlePlay.png'

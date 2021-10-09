@@ -1,8 +1,6 @@
 import React from 'react'
 import MaskProducts from '../images/MaskProducts.png'
 import yellow from '../images/yellow.png'
-
-
 function BoduProducts() {
     return (
         <div className="body__products">
