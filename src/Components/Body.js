@@ -1,4 +1,4 @@
- import React from 'react'
+ import React,{useState} from 'react'
 import body from '../css/body.css'
 import AppleIcon from '@mui/icons-material/Apple';
 import googlePlay from '../images/googlePlay.png'
@@ -7,8 +7,10 @@ import desgin from '../images/desgin.png'
 
  
 function Body() {
+        const [language, setLanguage] = useState('EN');
+
     return (
-        <div className="body">
+        <div className="body"   >
             <div className="body__one__all">
 
             <div className="body__secand">

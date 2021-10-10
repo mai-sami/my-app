@@ -732,12 +732,17 @@ margin-top: -55px !important;
     width: 90% !important;
   
   }
-
-
-
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
+.select__lan{
+  outline: none;
+  border: none;
+  color: #DBDBDB;
+  font-weight: 600;
+  font-size: 12px;
 }
+
+body[dir="rtl"]
+.header__containrt{
+  background-color: #a490e7;
+   }

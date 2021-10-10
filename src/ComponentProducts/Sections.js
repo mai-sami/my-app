@@ -9,11 +9,11 @@ import secandrow from '../images/secandrow.png'
 import '../css/Chats.css'
 import ex from '../images/ex.png'
 import SendIcon from '@mui/icons-material/Send';
-
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 import Dialog from '@mui/material/Dialog';
 
-import { Link } from "react-router-dom";
-
+ 
 var parts = [
 
   { id: 2,status:true,   image: ex, massge: "How we can help you? " },
@@ -34,7 +34,8 @@ var parts = [
 ]
 function Sections() {
   const [open, setOpen] = React.useState(false);
- 
+  const [t, i18n] = useTranslation();
+
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -61,7 +62,7 @@ function Sections() {
 
       </div>
       <div className="secand__in">
-        <h1 className="h___secand">How can I help you?</h1>
+        <h1 className="h___secand">    {t("How")} </h1>
         <div className="all__iteam__sections" onClick={handleClickOpen}>
 
           <img className="imgs" src={firstrow} />

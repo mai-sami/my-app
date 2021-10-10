@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import header from '../images/header.png'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -10,6 +10,8 @@ import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
 import un from '../images/un.png'
 import pr from '../images/pr.png'
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 var card = [{
     image: un, name: "5% discount ocream ordersn ", title: " 2000 Point "
 }, {
@@ -20,6 +22,9 @@ var card = [{
 }
 ];
 function Headers() {
+    const [t, i18n] = useTranslation();
+    const [language, setLanguage] = useState('EN');
+
     var settings = {
         dots: false,
         infinite: true,
@@ -27,6 +32,25 @@ function Headers() {
         slidesToShow: 3,
         slidesToScroll: 1
     };
+
+    const handleOnclick=(e)=>{
+        e.preventDefault();
+        setLanguage(e.target.value);
+        i18n.changeLanguage(e.target.value);
+        if (e.target.value == "العربية"){
+            document.body.dir = "rtl";
+
+          }
+          else   
+            document.body.dir = "ltr";
+
+          
+    }
+const changeLanguage =()=>{
+        i18n.changeLanguage('العربية')
+     document.body.dir = "rtl";
+    }
+    
     $(document).ready(function () {
 
 
@@ -63,13 +87,13 @@ function Headers() {
         });
     });
     return (
-        <div className="header">
+        <div className="header"  >
             <div className="header__containrt">
                 <div className="im__ge">
                     <img src={header} />
                     <nav>
                         <select className="select">
-                            <option className="active" selected disabled>Products</option>
+                            <option className="active" selected disabled>{t("Products")}</option>
 
 
 
@@ -77,7 +101,7 @@ function Headers() {
                     </nav>
                 </div>
 
-
+               
                 <div className="items">
                     <div className="items__image">
                     </div>
@@ -91,7 +115,16 @@ function Headers() {
 
                 </div>
                 <ExpandMoreIcon id="noti_Button" className="expands" />
-
+                <select   className="select__lan"   onChange={handleOnclick}>
+             
+                                 
+             <option value="العربية"  onClick={changeLanguage}>            العربية 
+             </option>
+       <option value="EN"  onClick={() => i18n.changeLanguage(' EN')}> 
+       EN
+                
+        </option> 
+ </select >
             </div >
 
 
@@ -114,8 +147,7 @@ function Headers() {
 
                         <ChevronRightIcon />
                     </div>
-
-
+ 
 
 
                 </div>

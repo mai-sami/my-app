@@ -12,7 +12,8 @@ import ForgetPassword from './Pages/ForgetPassword';
 import TermsCondition from './Pages/TermsCondition';
 import Privacy from './Pages/Privacy';
 import AboutUs from './Pages/AboutUs';
-
+import { useTranslation } from "react-i18next";
+import "./translations/i18n";
 
 function App() {
   return (

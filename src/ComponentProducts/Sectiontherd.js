@@ -17,7 +17,8 @@ import CardMedia from '@mui/material/CardMedia';
 import mid from '../images/mid.png'
 import image from '../images/image.png'
 import maps from '../images/maps.png'
-
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 var card = [{
    image: lastss, name: "Experto Identity ", title: "Lorem ipsum dolr sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
 }, {
@@ -56,17 +57,19 @@ function Sectiontherd() {
       slidesToShow: 1,
       slidesToScroll: 1
    };
+     const [t, i18n] = useTranslation();
+
    return (
       <div className="j">
          <div className="sectiontherd">
             <div className="body__one__section__all">
                <div className="body__one__dec">
-                  <p className="same">We are thinking outside
+                  <p className="same">{t("we")}
                   </p>
 
-                  <p className="same">the box to build
+                  <p className="same">{t("the")}
                   </p>
-                  <p className="diifrent">your Project...</p>
+                  <p className="diifrent">{t("toyr")}</p>
                </div>
                <div className="body__secand">
                   <img className="fan" src={fan} alt="" />
@@ -75,11 +78,9 @@ function Sectiontherd() {
             </div>
          </div>
          <div className="sectionfoure">
-            <h3>Portfolio</h3>
+            <h3>{t("Portfolio")}</h3>
             <div className="size">
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                  sed diam nonummy nibh euismod tincidunt ut laoreet
-                  dolore magna aliquam erat volutpat.
+               <p>{t("A")}
                </p>
             </div>
 
@@ -145,15 +146,12 @@ function Sectiontherd() {
                      <img className="dec" src={dec} />
                   </div>
                   <div className="body__ones__as__dec">
-                     <h1 className="at__last">Our Projects
+                     <h1 className="at__last">{t("Our")}
 
                      </h1>
 
-                     <div className="p__dec">
-                        <p>Lorem ipsum dolor sit amet,
-                           consectetuer adipiscing elit, sed diam
-                           nonummy nibh euismod tincidunt ut
-                           laoreet dolore magna aliquam erat volutpat.</p>
+                     <div className="lor">
+                        <p> {t("text")}</p>
                      </div>
 
                   </div>
@@ -165,16 +163,16 @@ function Sectiontherd() {
                <div className="card__number">
                   <div className="part__S">
                      <h1>+125</h1>
-                     <p>Lorem ipsum dolor sit amet</p>
+                     <p>{t("text")}</p>
 
                   </div>
                   <div className="part__S">
                      <h1>+150</h1>
-                     <p>Lorem ipsum dolor sit amet</p>
+                     <p>{t("text")}</p>
 
                   </div> <div className="part__S">
                      <h1>+50</h1>
-                     <p>Lorem ipsum dolor sit amet</p>
+                     <p>{t("text")}   </p>
 
                   </div>
 
@@ -210,9 +208,9 @@ function Sectiontherd() {
 
             <div className="end__all__sections">
 
-               <h1>Our clients are talking  
+               <h1> {t("our")}   
 </h1>
-<h1>about us</h1>
+<h1>  {t("about")} </h1>
 
                 <div className="end">
  

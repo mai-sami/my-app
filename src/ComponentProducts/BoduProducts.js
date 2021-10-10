@@ -1,7 +1,11 @@
 import React from 'react'
 import MaskProducts from '../images/MaskProducts.png'
 import yellow from '../images/yellow.png'
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 function BoduProducts() {
+    const [t, i18n] = useTranslation();
+
     return (
         <div className="body__products">
             <div className="bodyProduct__one__all">
@@ -11,17 +15,15 @@ function BoduProducts() {
                     <img className="MaskProducts" src={MaskProducts} />
                 </div>
                 <div className="bodyprduct__one">
-                    <h1>Start  your
+                    <h1>   {t("Start")}
 
                     </h1>
-                    <h1>project
+                    <h1> {t("project")}
 </h1>
-                    <h1>with a great idea</h1>
+                    <h1> {t("with")} </h1>
                     <div className="p__products">
-                        <p>Lorem ipsum dolor sit amet,
-                             consectetuer adipiscing elit, sed diam     </p>
-                             <p>nonummy nibh euismod tincidunt ut
-                              laoreet dolore magna aliquam erat volutpat.</p>
+                        <p>   {t("Lorem")}   </p>
+                             <p>  {t("lor")} </p>
                     </div>
                     <div className="s__p"> 
                     <div class="toggle-switch-container">
@@ -35,7 +37,7 @@ function BoduProducts() {
     
     </div>
     <br />
-    <p className="swi__p">let's go</p>
+    <p className="swi__p">  {t("let")}</p>
 
  </div>
                 </div>
