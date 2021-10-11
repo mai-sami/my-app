@@ -5,9 +5,11 @@ import googlePlay from '../images/googlePlay.png'
 import Mask from '../images/Mask.png'
 import desgin from '../images/desgin.png'
 
- 
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 function Body() {
         const [language, setLanguage] = useState('EN');
+        const [t, i18n] = useTranslation();
 
     return (
         <div className="body"   >
@@ -25,10 +27,10 @@ function Body() {
  
                     </div>
                     <div className="body__one"> 
-                    <h1>Personal
+                    <h1> {t("Personal")}
 </h1>
-<h1>Tech</h1>
-<h1>Assistance</h1>
+<h1>  {t("Tech")}</h1>
+<h1>  {t("Assistance")}</h1>
 
 <div className="App__store">
 

@@ -19,8 +19,26 @@ Our:"Our Projects",
 text:"Lorem ipsum dolor sit amet",
 our:"Our clients are talking  ",
 about:"about us",
-A:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+A:"Lorem ipsum dolor   elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
 ,
+ 
+Tech:"Tech",
+Assistance:"Assistance",
+can:"How can ",
+help:"we help you?",
+Our:"Our services",
+guaranteed :"Our services are guaranteed 100%",
+refund:"You can get a refund If the service is not provided",
+required:"as required .. ",
+Trusted:"Trusted By Thousands Of",
+Companies:"Companies & Individuals",
+Give :" Give Us Feedback",
+Join:"Join our newsletter To",
+receive:"receive new technical news",
+Ours:"Our",
+Clients:"Clients",
+
+
 
 
 };

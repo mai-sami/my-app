@@ -5,12 +5,15 @@ import social from '../images/social.png'
 import Maskk from '../images/Maskk.png'
 import Group from '../images/Group.png'
 import MaskG from '../images/MaskG.png'
-
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 import Bodys from'./Bodys';
   
   
  
 function BodyHome() {
+    const [t, i18n] = useTranslation();
+
     return (
         <div className="body___home">
             <div className="body___home__body">
@@ -20,28 +23,28 @@ function BodyHome() {
     </div>           
     
     <div className="body___home__two">
-      <h1 className="h1">How can
+      <h1 className="h1">  {t("can")}
 </h1>
-<h1 className="h1">we help you?</h1>
+<h1 className="h1">  {t("help")}</h1>
 <div className="p__all"> 
-<p className="p__h">Lorem ipsum dolor sit amet, consectetuer adipiscing   
+<p className="p__h">  {t("A")}   
 </p>
-<p className="p__h">elit, sed diam nonummy nibh euismod tincidunt ut
+<p className="p__h">  {t("A") }
  </p>
-     <p className="p__h"> laoreet dolore magna aliquam erat volutpat.   </p> 
+     <p className="p__h">  {t("A")}   </p> 
      </div>
  
     </div>    
     </div>
     <div  className="body___home__therd">
     <br />     
-    <p className="p__P">Our services</p>
+    <p className="p__P">  {t("Our")}</p>
     <br />
 <div className="cards">
     <div className="card">
     <div className="card__p">
 
-<p>Computer</p>
+<p>Computer </p>
 <p>Repair</p>
 </div>
 
@@ -98,11 +101,11 @@ function BodyHome() {
  <div className="section__right">
 <img src={Group} alt="" /> </div>
  <div className="section__leaft">
-<p className="p__spacing">Our services are guaranteed 100%</p>
+<p className="p__spacing">  {t("guaranteed")} </p>
  
- <p  className="p__spacings">You can get a refund If the service is not provided
+ <p  className="p__spacings">  {t("refund")} 
 </p>
-<p  className="p__spacings">as required .. </p>
+<p  className="p__spacings">  {t("required")} </p>
  
  
  </div>
