@@ -113,7 +113,7 @@ function Register() {
 
         </div>
     </div>
-    <input className="Account" onClick={handleClickOpen} value={t("Create")}   />
+    <input className="Account" onClick={handleClickOpen} type="submit"  value={t("Create")}   />
           </TabPanel>
       <TabPanel value={value} index={2}>
     <div className="butt_pn">
@@ -135,7 +135,7 @@ function Register() {
        </div>
     </div>
 
-    <input className="Accounts" value= {t("Signs")}  />
+    <input className="Accounts" type="submit"  value=  {t("Signs")}  />
     </div>
       </TabPanel>
     

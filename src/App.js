@@ -68,12 +68,10 @@ function App() {
           <Route path="/product">
             <Headers />
             <AllBody />
-                   <Footer />
+            <Footer />
 
           </Route>
-
-         
-          <Route path="/">
+           <Route path="/">
             <Header />
             <Body />
             <BodyHome />  

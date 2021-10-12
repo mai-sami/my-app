@@ -12,7 +12,6 @@ import SendIcon from '@mui/icons-material/Send';
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
 import Dialog from '@mui/material/Dialog';
-
  
 var parts = [
 
@@ -119,13 +118,13 @@ function Sections() {
                     <img className="chat__msg" src={ex} />
                   </div>
                   <div className="text__text">
-                    <p className="large">Enter the number of logo you want</p>
+                    <p className="large">  {t("Enter")}</p>
                     <div className="div__send">
                       <SendIcon className="SendIcon" style={{ fontSize: 20 }} />
 
                       <input className="send__input" />
                     </div>
-                    <p className="small">Press enter to send</p>
+                    <p className="small">      {t("Press")}</p>
                     <small className="small">12:4</small>
 
                   </div>

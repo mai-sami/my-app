@@ -15,28 +15,27 @@ function ForgetPassword() {
 
 <div className="flex__tabs">
 <div className="pp">
-<p>EMAIL ADDRES</p>
+<p>  {t("EMAIL")}</p>
 <input required className="first__inputs" />
 
   </div>
   <div className="pp">
 
-<p>PASSWORD</p>
+<p>{t("PASSWORD")}</p>
 <input type="password" required className="first__inputs" />
  
   </div>
  
 </div>
-<input className="Reset" value="Reset Password" />
+<input className="Reset" type="submit" value= {t("Reset")} />
  
  </div>
 </div>
           </div>
           <div className="fom__left">
-             <h1 className="h__forms">  Forget password</h1>
+             <h1 className="h__forms">    {t("Forget")}</h1>
              <p className="form__Ps">  
-             Check your email, to send a message with a
-confirmation code
+             {t("Please")}
                  </p>
           <br/>
           <div className="im__age">

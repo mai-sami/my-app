@@ -117,7 +117,10 @@ const changeLanguage =()=>{
                 <ExpandMoreIcon id="noti_Button" className="expands" />
                 <select   className="select__lan"   onChange={handleOnclick}>
              
-                                 
+                <option  > 
+       EN
+                
+        </option>         
              <option value="العربية"  onClick={changeLanguage}>            العربية 
              </option>
        <option value="EN"  onClick={() => i18n.changeLanguage(' EN')}> 

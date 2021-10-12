@@ -50,8 +50,8 @@ function Header() {
 
                     <ul >
                         <li><a className="active" href="/">   {t("Personal")} </a></li>
-                        <li><a href="/product">   {t("Business")}   </a></li>
-                        <li><a href="/">     {t("Join")}   </a></li>
+                        <li><a href="/product">   {t("Business")}    </a></li>
+                        <li><a href="/login">     {t("Joins")}   </a></li>
 
                     </ul>
                 </nav>

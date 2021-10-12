@@ -354,10 +354,17 @@ ul li a.active{
     margin: auto;
   }
   .im__ge img{
-    width: 84px;
+    width: 60px;
   }
   a{
-    padding: 10px !important;
+    padding: 8px !important;
+  }
+  body[dir="rtl"] .body__one{
+    width: 32% !important;
+    right: 60% !important;
+  }
+  body[dir="rtl"] .body__secand{
+    width: 42% !important;
   }
   .circle{
     display: none;
@@ -415,7 +422,7 @@ height: 73vh !important;
   }
   
   .all {
-    height: 70vh !important;
+    height: 85vh !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -904,7 +911,183 @@ body[dir="rtl"]
 }
 body[dir="rtl"]
 .pp p {
-
   text-align: right;
 
+}
+body[dir="rtl"]
+
+.form__rights__password{
+float: left;
+}
+body[dir="rtl"]
+
+.fom__left{
+  float: right;
+  text-align: right;
+
+}
+body[dir="rtl"]
+
+.form__rights__about{
+  float: left;
+  text-align: right;
+
+}
+body[dir="rtl"]
+
+.fom__lefts__about{
+  float: right;
+}
+body[dir="rtl"]
+
+.about__p{
+  text-align: right;
+
+}
+body[dir="rtl"]
+
+.h__form__about{
+  text-align: right;
+
+}
+body[dir="rtl"]
+
+.form__right{
+  float: left;
+}
+body[dir="rtl"]
+.fom__lefts__contact{
+  float: right;
+  text-align: right;
+
+}
+body[dir="rtl"]
+
+.inputt{
+  text-align: right;
+  padding-right: 4px;
+
+}
+body[dir="rtl"]
+
+.h__form__tearms{
+  text-align: right;
+}
+body[dir="rtl"]
+
+.TermsCondition{
+  width: 100%;
+}
+body[dir="rtl"]
+
+.Terms__p{
+  text-align: right;
+}
+body[dir="rtl"]
+
+.div__a{
+   color: white;
+  font-size: 33px;
+  width: 180px;
+
+}
+body[dir="rtl"]
+
+.ct_footer{
+  color: white;
+   font-weight: bold;
+   direction: rtl;
+  padding: 25px 0px 12px 0px;
+  font-size: 20px;
+ }
+
+ body[dir="rtl"]
+
+ .gridfooters{
+   text-align: right;
+ }
+/* .a__a{
+  color: white;
+  font-size: 20px;
+  padding:4px 0px 8px 0;
+  font-weight: 400;
+
+} */
+body[dir="rtl"]
+
+.grid{
+  text-align: right;
+}
+body[dir="rtl"]
+
+.gridfooter{
+  text-align: right;
+
+}
+body[dir="rtl"]
+.a__as{
+  color: white;
+   font-weight: bold;
+   font-size: 22px;
+    padding:4px 0px 8px 0;
+}
+body[dir="rtl"]
+
+.a__ass{
+  color: white;
+   font-weight: 600;
+   font-size: 15px;
+    padding:4px 0px 8px 0;
+}
+
+
+body[dir="rtl"]
+
+.p__footer{
+text-align: right;
+}
+body[dir="rtl"]
+
+.contant__right{
+float: left;
+text-align: left;
+}
+body[dir="rtl"]
+
+.contant__rleft{
+  float: right;
+  text-align: right;
+
+}
+ 
+ 
+body[dir="rtl"]
+.text__text {
+width: 70%;
+height: 14vh;
+ }
+body[dir="rtl"]
+.large{
+  text-align: right;
+  padding: 3px;
+}
+body[dir="rtl"]
+.text__text{
+  text-align: right;
+
+}
+body[dir="rtl"]
+
+.div__send{
+  direction: ltr;
+  margin-top: 12px;
+   text-align: right;
+}
+ 
+ 
+.a__as{
+  color:  white !important;
+   font-weight: 600;
+   font-size: 18px;
+    padding:4px 0px 8px 0;
 }
