@@ -36,6 +36,8 @@ function Header() {
         document.body.dir = "rtl";
     }
 
+
+    
     return (
         <div className="header">
             <div className="header__containrt">

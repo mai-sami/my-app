@@ -819,3 +819,92 @@ body[dir="rtl"]
     .section__end__parts__right {
 float: left;
     }
+
+    body[dir="rtl"]
+    .bodyProduct__secand{
+ direction: rtl;
+ 
+    }
+    body[dir="rtl"]
+
+    .bodyProduct__secand{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 22px;
+width: 33%;
+ 
+
+}
+    body[dir="rtl"]
+
+    .bodyprduct__one{
+      float: right;
+      width:33%;
+      margin: auto;
+     position: absolute;
+     right: -13%;
+       display: flex;
+       flex-direction: column;
+    }
+    body[dir="rtl"]
+
+    .yellow{
+      width: 15%;
+   padding-top: 55px;
+    float: left;
+    right: 75%;
+  position: absolute;
+      height: 67vh;
+     }
+     body[dir="rtl"]
+
+     .fan{
+      width: 66%;
+  }
+  body[dir="rtl"]
+
+  .body__one__dec {
+ 
+    width:  44%;
+  }
+  body[dir="rtl"]
+
+  .body__ones__as__dec{
+    float: right;
+text-align: center;
+  }
+  body[dir="rtl"]
+
+  .decs{
+    direction: ltr;
+
+   }
+   body[dir="rtl"]
+
+   .form__rights{
+float: left;
+   }
+
+   body[dir="rtl"]
+.fom__lefts{
+  float: right;
+  text-align: right;
+}
+body[dir="rtl"]
+
+.flex__tab{
+  text-align: right;
+}
+body[dir="rtl"]
+.bloc__tab {
+  text-align: right;
+
+}
+body[dir="rtl"]
+.pp p {
+
+  text-align: right;
+
+}

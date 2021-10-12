@@ -37,8 +37,17 @@ Join:"Join our newsletter To",
 receive:"receive new technical news",
 Ours:"Our",
 Clients:"Clients",
-
-
-
-
+Welcome :" Welcome Back!",
+text:"  We are glad to have you with us You can log into take advantage of our services",
+Sign :" Sign up",
+Signs:" Sign in",
+FIRST:"FIRST NAME",
+LAST:"LAST NAME",
+EMAIL :"EMAIL ADDRES",
+PASSWORD:"PASSWORD",
+CONFIRM :"CONFIRM PASSWORD",
+Forget :"Forget your password",
+Welcomes:" Welcome !",
+Please :"Please check on your email",
+Create:"Create New Account"
 };

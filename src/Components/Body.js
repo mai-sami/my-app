@@ -23,8 +23,7 @@ function Body() {
                   <div className="desgin__div"> 
                         <img className="desgin" src={desgin} />
                         </div>
- 
- 
+  
                     </div>
                     <div className="body__one"> 
                     <h1> {t("Personal")}

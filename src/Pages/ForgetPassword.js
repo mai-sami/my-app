@@ -1,8 +1,11 @@
 import React from 'react'
 import contact from '../images/contact.png'
 import forget from '../images/forget.png'
-
+import { useTranslation } from "react-i18next";
+import "../translations/i18n";
 function ForgetPassword() {
+  const [t, i18n] = useTranslation();
+
     return (
         <div className="contact">
         <div className="form">
