@@ -210,7 +210,8 @@ function Sectiontherd() {
 
                <h1> {t("our")}   
 </h1>
-<h1>  {t("about")} </h1>
+ <h1>  {t("about")} </h1>
+ <br />
 
                 <div className="end">
  

@@ -79,13 +79,15 @@ color: white;
   background-color:black;
    margin: 5px;
    padding: 2px;
-  height: 30px;
+ width: 32%;
     border-radius: 7px;
    border: 1px solid rgb(194, 194, 194);
 
 }
 .icon__text{
   margin-top: 2px;
+  display: flex;
+  flex-direction: column;
   color: white;
 }
 
@@ -292,12 +294,11 @@ min-height: 180px;
   }
   .notes{
     width: 220px;
-    margin: 12px 12px 0px 12px;
-    height: 93px;
-
+    padding-top: .7rem;
+    border-radius:  8% 8% 8% !important;
+ 
 text-align: center;
-    border-radius: 12px;
-    font-family: 'Comfortaa';
+     font-family: 'Comfortaa';
     font-size: 14px;
     font-weight: bold;
     display: flex;
@@ -382,12 +383,13 @@ min-height: 180px;
        font-weight: bold;
        align-items: center;
        text-align: center;
+       padding: .4rem;
        display: flex;
-       justify-content: center;
+
        width: 20%;
-       background-color: #4F2E85;
-       height: 33px;
-       font-size: 18px;
+       justify-content: center;
+        background-color: #4F2E85;
+        font-size: 18px;
        outline: none;
        color: white;
      }
@@ -515,8 +517,7 @@ color: #4F2E85;
   justify-content: center;
 }
 .section__end__parts__right img{
-  width: 115px;
-
+ 
   margin:0;
 }
 .prg__end__section{
@@ -527,8 +528,8 @@ color: #4F2E85;
   font-weight: bold;
 }
 .pickt{
-  margin-top: -12px;
-}
+  width: 25rem;
+ }
 .face{
   float: right;
 margin-right: 19%;

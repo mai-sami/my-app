@@ -15,9 +15,9 @@ function Sliders() {
           <div className="cardsa__all">
               
                     <div className="notes">
-                        <p>dvdfopjgvopdff</p>
-                        <p>dvdfopjgvopdff</p>
-                        <p>dvdfopjgvopdff</p>
+                        <span>dvdfopjgvopdff</span>
+                        <span>dvdfopjgvopdff</span>
+                        <span>dvdfopjgvopdff</span>
                         <div className="reating">
                         {Array(5)
               .fill()
@@ -26,6 +26,9 @@ function Sliders() {
               ))}    
                 </div>        
                        </div>
+
+
+                       
                     <div className="cardsa">
                 
                <div className="circles">
@@ -43,9 +46,9 @@ function Sliders() {
                     <div className="cardsa__all">
               
               <div className="notes">
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
                   <div className="reating">
                   {Array(5)
         .fill()
@@ -71,9 +74,9 @@ function Sliders() {
               <div className="cardsa__all">
               
               <div className="notes">
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
                   <div className="reating">
                   {Array(5)
         .fill()
@@ -99,9 +102,9 @@ function Sliders() {
               <div className="cardsa__all">
               
               <div className="notes">
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
                   <div className="reating">
                   {Array(5)
         .fill()
@@ -127,9 +130,9 @@ function Sliders() {
               <div className="cardsa__all">
               
               <div className="notes">
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
                   <div className="reating">
                   {Array(5)
         .fill()
@@ -155,9 +158,9 @@ function Sliders() {
               <div className="cardsa__all">
               
               <div className="notes">
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
-                  <p>dvdfopjgvopdff</p>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
+                  <span>dvdfopjgvopdff</span>
                   <div className="reating">
                   {Array(5)
         .fill()

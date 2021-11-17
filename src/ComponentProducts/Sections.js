@@ -12,7 +12,8 @@ import SendIcon from '@mui/icons-material/Send';
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
 import Dialog from '@mui/material/Dialog';
- 
+ import Chats from '../Pages/Chats'
+ import CancelIcon from '@mui/icons-material/Cancel';
 var parts = [
 
   { id: 2,status:true,   image: ex, massge: "How we can help you? " },
@@ -32,16 +33,17 @@ var parts = [
 
 ]
 function Sections() {
-  const [open, setOpen] = React.useState(false);
-  const [t, i18n] = useTranslation();
+   const [t, i18n] = useTranslation();
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  
  
-  const handleClose = () => {
-    setOpen(false);
-  };
+  const [opened, setOpened] =React.useState(false);
+  const Taggole=()=>{
+      setOpened(true)
+  }
+  const Taggoles=()=>{
+    setOpened(false)
+}
   return (
     <div className="sections">
       <div className="section__containrt">
@@ -62,83 +64,23 @@ function Sections() {
       </div>
       <div className="secand__in">
         <h1 className="h___secand">    {t("How")} </h1>
-        <div className="all__iteam__sections" onClick={handleClickOpen}>
+        <div className="all__iteam__sections" onClick={Taggole}>
 
           <img className="imgs" src={firstrow} />
           <img className="imgss" src={secandrow} />
         </div>
       </div>
 
-      <Dialog open={open} onClose={handleClose}>
-        <div className="chat">
 
-          <div className="contant">
-            <div className="chats">
-              <div className="chatss">
-              <div className="ll">
 
-                {parts.map((part) => (
- <div>
-   
-  {part.status ?
+      <Dialog open={opened} onClose={Taggoles}>
+      <CancelIcon  className="cancel__chatBot"  onClick={Taggoles} />
 
-                     <div className="contant__right">
+ <Chats />
+     
+      </Dialog>  
 
-                      <div className="div__mass">
-
-                        <p>{part.massge}</p>
  
-                      </div>
-                   
-
-                    </div>
-                    :
-                    <div className="contant__rleft">
-                      <div className="ci__bb">
-                        <img className="chat__msg" src={part.image} />
-                      </div>
-                      <div className="div__mass__left">
-
-                        <p>{part.massge}</p>
-
-                      </div>
-
-
-                    </div>
-                                      
-
-            
-                }
-                 </div>
-                
-                ))}
-                   </div>
-                <div className="footer__chats">
-                  <div className="ci__bb">
-                    <img className="chat__msg" src={ex} />
-                  </div>
-                  <div className="text__text">
-                    <p className="large">  {t("Enter")}</p>
-                    <div className="div__send">
-                      <SendIcon className="SendIcon" style={{ fontSize: 20 }} />
-
-                      <input className="send__input" />
-                    </div>
-                    <p className="small">      {t("Press")}</p>
-                    <small className="small">12:4</small>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </Dialog>
     </div>
 
   )

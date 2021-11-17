@@ -32,8 +32,11 @@ function Footer() {
         <div className="grid__all">
           <div className="grid">
 
-            <h2 class="ct_footer ">  {t("HOME")}   </h2>
-            <ul className="ul">
+             <ul className="ul">
+            <h2 className="ct_footer ">  {t("HOME")}   </h2>
+            <li>
+                <a className="a__a" >  </a>
+              </li>
               <li>
                 <a className="a__a" href="/about"> {t("About")}   </a>
               </li>
@@ -60,8 +63,11 @@ function Footer() {
           <div className="gridfooters">
 
 
-            <h2 class="ct_footer">  {t("Services")} </h2>
-            <ul className="ul">
+             <ul className="ul">
+             <h2 class="ct_footer">  {t("Services")} </h2>
+             <li>
+                <a className="a__a" >  </a>
+              </li>
               <li>
                 <a className="a__a" href="/product"> {t("Business")} </a>
               </li>
@@ -76,8 +82,8 @@ function Footer() {
           </div>
 
           <div className="gridfooter">
-            <h2 class="ct_footer"> {t("Contact")}     </h2>
-            <div className="socail">
+             <div className="socail">
+             <h2 class="ct_footer"> {t("Contact")}     </h2>
 
               <img src={Groupsocail} alt="" />
 
@@ -88,8 +94,8 @@ function Footer() {
 
                   <img src={googlePlay} className="icons" />
                   <div className="icon__text">
-                    <p className="available"> GIT IT ON    </p>
-                    <p className="text__app">  Google Play</p>
+                    <span className="available"> GIT IT ON    </span>
+                    <span className="text__app">  Google Play</span>
                   </div>
 
                 </div>

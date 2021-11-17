@@ -108,7 +108,7 @@ position: absolute;
   }
   
   .toggle-switch {
-    width: 10px;
+    width: 15px;
     position: relative;
   }
   
@@ -136,11 +136,11 @@ position: absolute;
  
   
   .toggle-switch .toggle-outside {
-    height: 100%;
-    border-radius: 17px;
+     border-radius: 17px;
     padding: 8px;
+  
     overflow: hidden;
-    transition: opacity 0.3s ease-in-out;
+     transition: opacity 0.3s ease-in-out;
   }
   
   .toggle-switch .toggle-inside {
@@ -160,7 +160,7 @@ position: absolute;
   
   .switch-vertical .toggle-outside {
      position: absolute;
-     height: 12px;
+     height:5vh;
      right: 0;
     border: 1px solid white;
     top: 0;
@@ -176,7 +176,7 @@ position: absolute;
   }
   
   .switch-vertical input:checked ~ .toggle-outside .toggle-inside {
-    top: 13px;
+    top: 16px;
 
   }
   
@@ -189,7 +189,7 @@ position: absolute;
  }
   .swi__p{
       color: #FFE482;
-      font-size: 16px;
+      font-size: 18px;
       padding-top: 18px;
       font-family:'Montserrat-SemiBold' ;
       text-transform: uppercase;
@@ -833,3 +833,17 @@ padding: 12px 0px 5px 0px;
     .body___home{
        height: 450vh;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

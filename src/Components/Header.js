@@ -49,9 +49,9 @@ function Header() {
                 <nav>
 
                     <ul >
-                        <li><a className="active" href="/">   {t("Personal")} </a></li>
-                        <li><a href="/product">   {t("Business")}    </a></li>
-                        <li><a href="/login">     {t("Joins")}   </a></li>
+                        <li><a   className="active" href="/">   {t("Personal")} </a></li>
+                        <li><a id="a" href="/product">   {t("Business")}    </a></li>
+                        <li><a id="a" href="/login">     {t("Joins")}   </a></li>
 
                     </ul>
                 </nav>

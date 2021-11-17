@@ -12,6 +12,8 @@ import ForgetPassword from './Pages/ForgetPassword';
 import TermsCondition from './Pages/TermsCondition';
 import Privacy from './Pages/Privacy';
 import AboutUs from './Pages/AboutUs';
+import Pay from './Pages/Pay';
+ 
 import { useTranslation } from "react-i18next";
 import "./translations/i18n";
 
@@ -68,9 +70,16 @@ function App() {
           <Route path="/product">
             <Headers />
             <AllBody />
-            <Footer />
+            <Footer/>
+            </Route>
 
+
+            <Route path="/pay">
+            <Headers />
+            <Pay />
+            <Footer />
           </Route>
+          
            <Route path="/">
             <Header />
             <Body />

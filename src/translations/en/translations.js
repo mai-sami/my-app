@@ -73,5 +73,11 @@ AS:"Technical platform that helps you build your technical project ",
 AD:" through a specialized system for emerging applications, providing",
 Enter :"Enter the number of logo you want",
 
-Press:"Press enter to send"
+Press:"Press enter to send",
+ 
+TiTlePay:"Choose a payment method or",
+TiTlePays:"Enter your card information",
+Expiry:"Expiry date",
+Holdername:"Holdername",
+Next:"Next"
 };

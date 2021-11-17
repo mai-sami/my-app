@@ -38,8 +38,8 @@ function Body() {
 
 <img src={googlePlay}   className="icons" />
 <div className="icon__text">
-    <p className="available"> GIT IT ON    </p>
-    <p className="text__app">  Google Play</p>
+    <span className="available"> GIT IT ON    </span>
+    <span className="text__app">  Google Play</span>
 </div>
 
 </div>

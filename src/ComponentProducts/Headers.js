@@ -12,6 +12,8 @@ import un from '../images/un.png'
 import pr from '../images/pr.png'
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
+import Box from '@mui/material/Box';
+import Popper from '@mui/material/Popper';
 var card = [{
     image: un, name: "5% discount ocream ordersn ", title: " 2000 Point "
 }, {
@@ -23,6 +25,15 @@ var card = [{
 ];
 function Headers() {
     const [t, i18n] = useTranslation();
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event) => {
+      setAnchorEl(anchorEl ? null : event.currentTarget);
+    };
+  
+    const open = Boolean(anchorEl);
+    const id = open ? 'simple-popper' : undefined;
+  
     const [language, setLanguage] = useState('EN');
 
     var settings = {
@@ -51,41 +62,7 @@ const changeLanguage =()=>{
      document.body.dir = "rtl";
     }
     
-    $(document).ready(function () {
 
-
-
-        $('#noti_Button').click(function () {
-
-            // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
-            $('#notifications').fadeToggle('fast', 'linear', function () {
-                if ($('#notifications').is(':hidden')) {
-                    $('#noti_Button').css('background-color', '#2E467C');
-                }
-                // CHANGE BACKGROUND COLOR OF THE BUTTON.
-                else $('#noti_Button').css('background-color', '#FFF');
-            });
-
-            $('#noti_Counter').fadeOut('slow');     // HIDE THE COUNTER.
-
-            return false;
-        });
-
-        // HIDE NOTIFICATIONS WHEN CLICKED ANYWHERE ON THE PAGE.
-        $(document).click(function () {
-            $('#notifications').hide();
-
-            // CHECK IF NOTIFICATION COUNTER IS HIDDEN.
-            if ($('#noti_Counter').is(':hidden')) {
-                // CHANGE BACKGROUND COLOR OF THE BUTTON.
-                $('#noti_Button').css('background-color', '#2E467C');
-            }
-        });
-
-        $('#notifications').click(function () {
-            return false;       // DO NOTHING WHEN CONTAINER IS CLICKED.
-        });
-    });
     return (
         <div className="header"  >
             <div className="header__containrt">
@@ -107,14 +84,14 @@ const changeLanguage =()=>{
                     </div>
                     <div className="products__P">
 
-                        <p className="p1">Mohammed3mera</p>
+                        <span className="p1">Mohammed3mera</span>
 
-                        <p className="p2">2000 Point</p>
+                        <span className="p2">2000 Point</span>
 
                     </div>
 
                 </div>
-                <ExpandMoreIcon id="noti_Button" className="expands" />
+                <ExpandMoreIcon aria-describedby={id} type="button" onClick={handleClick}  className="expands" />
                 <select   className="select__lan"   onChange={handleOnclick}>
              
                 <option  > 
@@ -129,10 +106,10 @@ const changeLanguage =()=>{
         </option> 
  </select >
             </div >
+            <Popper id={id} open={open} anchorEl={anchorEl}>
 
-
-
-            <div id="notifications">
+<>
+             <div className="notifications">
                 <div className="colo">
                     <h3>Your points balance :</h3>
                     <h2>2000 Point</h2>
@@ -213,6 +190,10 @@ const changeLanguage =()=>{
                     </Slider>
                 </div>
             </div>
+            </>
+            </Popper>
+
+
         </div>
     )
 }

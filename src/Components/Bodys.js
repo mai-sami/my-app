@@ -14,12 +14,8 @@ import surface from '../images/surface.png'
 import Groupas from '../images/Groupas.png'
 
 
-import bmk from '../images/bmk.png'
-import collage from '../images/collage.png'
-import Whats from '../images/Whats.png'
-import now from '../images/now.png'
-import nows from '../images/nows.png'
-import pickt from '../images/pickt.png'
+import GroupAllss from '../images/GroupAllss.png'
+ 
 import face from '../images/face.png'
 
 import { useTranslation } from "react-i18next";
@@ -47,7 +43,7 @@ function Bodys() {
      <HomeWrapper>
     <Sliders />
     </HomeWrapper >
-<input className="feedback"  value={t("Give")}/>
+<input className="feedback" type ="submit" value={t("Give")}/>
   <br />
      </div>
      <div className="box__shadow">
@@ -97,12 +93,8 @@ function Bodys() {
  
     <div className="section__end__parts__right">
 
-    <img src={bmk}  alt=""/>
-    <img src={collage}  alt=""/>
-    <img src={Whats}  alt=""/>
-    <img src={now}  alt=""/>
-    <img src={nows}  alt=""/>
-    <img className="pickt" src={pickt}  alt=""/>
+    
+    <img className="pickt" src={GroupAllss}  alt=""/>
 
  
 </div>

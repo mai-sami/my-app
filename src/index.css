@@ -24,12 +24,11 @@ code {
 }
  
  
-#notifications {
-  display:none;
+.notifications {
   width:430px;
   position:absolute;
-  top:70px;
-  right: 15%;
+  top:20px;
+  right: 0;
    background:white;
   border:solid 1px rgba(100, 100, 100, .20);
   -webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .20);
@@ -62,8 +61,7 @@ code {
   padding: 12px;
   margin:17px auto;
 text-align: left;
-    height: 100px;
-}
+ }
 .colo h3{
 padding-bottom: 8px;
    color: white;
@@ -106,7 +104,8 @@ padding-bottom: 8px;
 .a{
   display: flex;
 }
-
+a{
+text-decoration: none !important ;}
 .change{
   color: #6D4BD8;
   font-size: 15px;
